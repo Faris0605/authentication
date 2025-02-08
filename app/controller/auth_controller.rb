@@ -1,10 +1,6 @@
-require './lib/dependency/service/auth_service'
+require './lib/service/auth_service'
 
 module Controller
-	class Auth
-		include Service::Auth
-	end
+	include Service::Authentication
 end
-
-puts 'hello'
 
