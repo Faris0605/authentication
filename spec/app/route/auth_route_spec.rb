@@ -1,5 +1,4 @@
-require './spec/support/context/app/route_context_spec'
-
+require './spec/support/common/app/route_common_spec'
 require './app/route/auth_route'
 
 RSpec.describe 'Auth_Route_Test', type: :route do
